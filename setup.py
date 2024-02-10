@@ -2,9 +2,9 @@ from setuptools import setup, find_packages
 
 setup(
     name='amicus_interfaces',
-    version='0.1.0',
-    author='Votre Nom',
-    author_email='votre.email@example.com',
+    version='0.1.1',
+    author='Christian Mauceri',
+    author_email='christian@example.com',
     description='Un package pour les interfaces communes d\'amicus.',
     packages=find_packages(),
     classifiers=[

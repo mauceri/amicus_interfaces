@@ -5,6 +5,8 @@
 env/
 env3/
 .env/
+dist/
+interfaces_env/
 
 # Bot local files
 interfaces_env/
