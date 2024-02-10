@@ -30,6 +30,18 @@ setup(
     url="https://github.com/mauceri/amicus_interfaces",
     description="Un robot qui vous veut du bien",
     packages=find_packages(exclude=["tests", "tests.*"]),
+    install_requires=[
+        "matrix-nio[e2e]>=0.10.0",
+        "requests>=2.31.0",
+    ],
+    extras_require={
+        "dev": [
+            "isort==5.0.4",
+            "flake8==3.8.3",
+            "flake8-comprehensions==3.2.3",
+            "black==19.10b0",
+        ],
+    },
     classifiers=[
         "License :: OSI Approved :: Apache Software License",
         "Programming Language :: Python :: 3 :: Only",
