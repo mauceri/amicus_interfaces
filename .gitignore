@@ -1,0 +1,23 @@
+# PyCharm
+.idea/
+
+# Python virtualenv environment folders
+env/
+env3/
+.env/
+
+# Bot local files
+interfaces_env/
+
+# Config file
+config.yaml
+
+# Python
+__pycache__/
+*.egg-info/
+
+# Config file
+config.yaml
+
+# Log files
+*.log

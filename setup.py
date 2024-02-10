@@ -25,7 +25,7 @@ long_description = read_file(("README.md",))
 
 
 setup(
-    name="perroquet",
+    name="amicus_interfaces",
     version=version,
     url="https://github.com/mauceri/amicus_interfaces",
     description="Un robot qui vous veut du bien",
