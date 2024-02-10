@@ -6,3 +6,9 @@ Les interfaces du module interfaces.py sont utilisées dans le package amicus_bo
 
 The interfaces in the interfaces.py module are used in the amicus_bot package and its plugins.
 
+
+
+
+### Install :
+pip install build
+python3 -m build
