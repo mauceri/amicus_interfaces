@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='amicus_interfaces',
-    version='0.1.1',
+    version='0.1.2',
     author='Christian Mauceri',
     author_email='christian@example.com',
     description='Un package pour les interfaces communes d\'amicus.',

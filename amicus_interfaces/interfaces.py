@@ -24,7 +24,7 @@ class IObservable(ABC):
         pass
 
     @abstractmethod
-    def notify(self, room:MatrixRoom, event:RoomMessageText, message: str):
+    def notify(self, room:MatrixRoom, event:RoomMessageText, message: str, filepath: str= None, filename: str= None):
         pass
 
 
