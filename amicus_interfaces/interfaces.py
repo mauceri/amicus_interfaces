@@ -29,6 +29,10 @@ class IObservable(ABC):
 
 
 class IPlugin(ABC):
+    def __init__(self, observable:IObservable, data_path:str="/data"):
+        self.data_path = data_path
+        self.__observable = observable
+        
     @abstractmethod
     def start(self):
         pass
