@@ -33,6 +33,7 @@ class IPlugin(ABC):
         self.data_path = data_path
         self.__observable = observable
         
+
     @abstractmethod
     def start(self):
         pass
